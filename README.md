@@ -25,3 +25,15 @@ Check out the following for more about puppeteer.
 https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#elementhandletostring
 
 https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
+
+Running e2e requires two terminals. 
+```
+$ npm run dev
+```
+
+Then 
+```
+$npm run test
+```
+
+This is because we are testing localhost:3000 and not an external URL. 
